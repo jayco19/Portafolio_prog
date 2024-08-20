@@ -1,0 +1,53 @@
+Lab 11
+Desarrollo del las preguntas
+
+Clases y objetos.
+
+-Clase y Objetos: Una clase son como formas que definen propiedades y comportamientos (propiedades y métodos). Un objeto es una instancia de esa clase.
+
+-Propiedades y Métodos de Coche: Las propiedades podrían ser el color, marca, modelo, etc. Los métodos podrían ser arrancar, detener, acelerar, etc.
+
+-Crear un Objeto en PHP: Se crea usando la palabra clave new. Ejemplo: $miCoche = new Coche();
+
+-Ejemplo de la Vida Real: Un ejemplo sería una clase Persona con propiedades como nombre, edad y métodos como caminar, hablar.
+
+Herencia
+
+-Herencia: Es un concepto donde una clase (subclase) puede heredar propiedades y métodos de otra clase (superclase).
+
+-CocheDeportivo: La clase CocheDeportivo heredó las propiedades y métodos de la clase Coche y posiblemente añadió métodos como turbo.
+
+-Funcionalidad Adicional: CocheDeportivo añadió, por ejemplo, un método activarTurbo que no estaba en la clase Coche.
+
+-Ejemplo de Herencia: En animales, la clase Perro podría heredar de la clase Animal, añadiendo propiedades y métodos específicos como ladrar.
+
+Polimorfismo
+
+-Polimorfismo: Es cuando diferentes clases pueden tener métodos con el mismo nombre pero con implementaciones diferentes.
+
+-Demostración de Polimorfismo: Si Coche y CocheDeportivo tienen un método acelerar con comportamientos diferentes, esto es polimorfismo.
+
+Encapsulamiento
+
+-Encapsulamiento: Es el concepto de restringir el acceso directo a las propiedades de un objeto, permitiendo su acceso solo a través de métodos específicos.
+
+-Protección de Propiedades: Se protegieron las propiedades color y marca haciéndolas privadas y permitiendo su acceso solo mediante getters y setters.
+
+-Getters y Setters: Son métodos para obtener (getter) o cambiar (setter) valores de propiedades privadas.
+
+Abstracción
+
+-Abstracción: Es el proceso de ocultar detalles complejos y mostrar solo la información esencial.
+
+-Clase Abstracta: Una clase abstracta es una clase que no se puede instanciar y sirve como base para otras clases. En 05_abstraccion.php, probablemente sirvió para definir una estructura básica que otras clases heredan.
+
+Constructores y Destructores
+
+-Constructor: Es un método especial que se ejecuta automáticamente al crear un objeto para inicializarlo.
+
+-Inicialización de Propiedades: En el constructor de Coche, las propiedades color y marca fueron inicializadas usando $this->color = $color;.
+
+-Destructor: Es un método que se ejecuta cuando el objeto ya no es necesario, liberando recursos si es necesario.
+
+
+
